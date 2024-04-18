@@ -1,0 +1,117 @@
+*{ 
+
+    margin: 0; 
+    
+    padding: 0; 
+    
+    box-sizing: border-box; 
+    
+} 
+    
+.main { 
+    
+     
+    
+ width: 100%; 
+    
+ height: 100vh; 
+    
+    } 
+    
+    /*SECCION 1*/ 
+    
+.seccion1{ 
+    
+ width: 100%; 
+    
+ height: 10em; 
+ background: linear-gradient(90deg, #cf5fe6,#ff5500); 
+    
+ padding-top: 1.5em; 
+    
+    } 
+    
+ /*Barra negra del header*/ 
+    
+     
+    
+.header{ 
+    
+     
+
+    background-color: #2d2f3e; 
+        
+    width: 100%; 
+        
+    height: 3.5em; 
+        
+    display: flex; 
+        
+    flex-direction: row; 
+        
+    overflow: hidden; 
+
+    justify-content: center; 
+        
+    align-items: center; 
+    
+} 
+    
+/*elementos interiores imagen logo y enlaces*/ 
+    
+     
+    
+.img{  
+    
+ 
+    
+ width: 25%; 
+    
+ height: 100%; 
+    
+} 
+    
+.menu{ 
+ 
+    
+    width: 55%; 
+        
+    height: 100%; 
+        
+    display: flex; 
+        
+    flex-direction: row; 
+        
+    justify-content: right; 
+        
+    align-items: center; 
+    
+} 
+    
+.img img{ 
+    
+    object-fit: cover; 
+        
+    height: 100%; 
+    
+} 
+    
+.menu a{ 
+    
+    display: flex; 
+        
+    text-decoration: none; 
+
+    color: white; 
+        
+    padding: 2em 1em;
+    
+} 
+    
+.menu a:hover{ 
+    
+ background-color: orangered;
+    
+} 
+    
+    /*FIN SECCION 1*/ 
